@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+a{
+    color: aliceblue;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* mbl  er jnw full width nibe */
+[class*="col-"]{
+    width:100%;
+}
+.navbar{
+    background-color: blueviolet;
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar-menu{
+    display:flex;
+    flex-direction: column;
+}
+.navbar-menu a{
+    color: black;
+    padding: 10px;
+}
+.navbar-menu a:hover{
+    background-color: blanchedalmond;
+}
+.navbar::after{
+    content: '';
+    display:table;
+    clear:both;
+}
+p{
+    font-size: 1.2rem;
+}
+.profile{
+    text-align: center;
+    padding: 130px 10px;
+    position: relative;
+}
+.profile-desc p{
+    font-family: 'Satisfy', cursive;
+    color: brown;
+    width: 90%;
+    padding-left: 150px;
+}
+.profile::after{
+    display:table;
+    content: '';
+    clear:both;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: blueviolet;
+    text-decoration: none;
+}
+.about-me{
+    background-color: bisque;
+    padding: 1% 7%;
+    text-decoration: none;
+
+}
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.hr-class{
+    border:dotted 6px blueviolet;
+    border-bottom: none;
+    margin: 20px auto;
+    width:70px;
+
+}
+.myimage img{
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+}
+.about-me p{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.skill-education{
+   padding: 1% 7%; 
+}
+.card{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    height: 700px;
+}
+.skill-education card:hover{
+    box-shadow : black
+}
+.skill-education::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.card-icon{
+    text-align: center;
+}
+.card-icon img{
+    margin-top: 50px ;
+    width: 100px;
+}
+h3{ 
+    color: aqua;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    font-size: 0.8rem;
+}
+.footer-menu a{
+    display: block;
+    
+}
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.footer-desc p{
+    color: crimson;
+    text-align: center;
+}
